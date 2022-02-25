@@ -1,0 +1,40 @@
+@font-face {
+	 font-family: 'buscape';
+	 src: url('buscape.woff2') format('woff2');
+	 font-weight: 1 999;
+}
+ body{
+	 display:grid;
+	 padding:2em;
+	 font-family: buscape, sans-serif;
+	 font-weight: 380;
+	 font-stretch: 75%;
+	 font-size: 1.2em;
+	 line-height: 1.4em;
+	 word-wrap: break-word;
+	 overflow-wrap: break-word;
+	 max-width: 480px;
+	 margin: auto;
+	 background-color:#FFC500;
+	 color:#FFFFFF;
+}
+h1,h2,h3 {
+	 font-weight: 500;
+	 font-stretch: 75%;
+	 letter-spacing: -0.33px;
+	 line-height: 1em;
+	 margin-top: 0.5em;
+	 margin-bottom: 0.5em;
+}
+ol,p{
+margin-top: 0.5em;
+margin-bottom: 0.5em;
+}
+ svg{
+	 margin:auto;
+	 height:33vh;
+}
+ span{
+	 text-transform:uppercase;
+}
+ 
