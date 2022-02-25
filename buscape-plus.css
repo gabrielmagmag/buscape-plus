@@ -13,9 +13,8 @@
 	 word-wrap: break-word;
 	 overflow-wrap: break-word;
 	 margin: auto;
-}
-nav{ 
-	 display:grid;
+	 max-width: 480px;
+	 padding: 2em;
 	 background-color:#FFC500;
 }
 h1,h2,h3 {
@@ -32,13 +31,10 @@ margin-bottom: 0.5em;
 }
  svg{
 	 margin:auto;
-	 height:40vh;
+	 height:44vh;
 }
  span{
 	 text-transform:uppercase;
 }
 
-main{
-max-width: 480px;
-margin:10vh auto auto;}
  
