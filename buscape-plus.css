@@ -10,31 +10,13 @@
 	 font-stretch: 75%;
 	 font-size: 1.2em;
 	 line-height: 1.4em;
-	 word-wrap: break-word;
-	 overflow-wrap: break-word;
+	
 	 margin: auto;
-	 max-width: 480px;
-	 padding: 2em;
 	 background-color:#FFC500;
-}
-h1,h2,h3 {
-	 font-weight: 500;
-	 font-stretch: 75%;
-	 letter-spacing: -0.33px;
-	 line-height: 1em;
-	 margin-top: 0.5em;
-	 margin-bottom: 0.5em;
-}
-ol,p{
-margin-top: 0.5em;
-margin-bottom: 0.5em;
+	 font-feature-settings: "ss01";
+	 min-height:66vh;
+	 margin-bottom: 50vh; 
 }
  svg{
-	 margin:auto;
-	 height:44vh;
-}
- span{
-	 text-transform:uppercase;
-}
-
- 
+	margin:auto;
+} 
