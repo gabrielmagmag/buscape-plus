@@ -5,7 +5,6 @@
 }
  body{
 	 display:grid;
-	 padding:2em;
 	 font-family: buscape, sans-serif;
 	 font-weight: 380;
 	 font-stretch: 75%;
@@ -13,10 +12,11 @@
 	 line-height: 1.4em;
 	 word-wrap: break-word;
 	 overflow-wrap: break-word;
-	 max-width: 480px;
 	 margin: auto;
+}
+nav{ 
+	 display:grid;
 	 background-color:#FFC500;
-	 color:#FFFFFF;
 }
 h1,h2,h3 {
 	 font-weight: 500;
@@ -32,9 +32,13 @@ margin-bottom: 0.5em;
 }
  svg{
 	 margin:auto;
-	 height:33vh;
+	 height:40vh;
 }
  span{
 	 text-transform:uppercase;
 }
+
+main{
+max-width: 480px;
+margin:10vh auto auto;}
  
