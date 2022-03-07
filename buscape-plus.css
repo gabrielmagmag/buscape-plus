@@ -3,20 +3,58 @@
 	 src: url('buscape.woff2') format('woff2');
 	 font-weight: 1 999;
 }
- body{
-	 display:grid;
-	 font-family: buscape, sans-serif;
-	 font-weight: 380;
-	 font-stretch: 75%;
-	 font-size: 1.2em;
-	 line-height: 1.4em;
+
+body{
+	display: grid;	
+	margin: auto;
 	
-	 margin: auto;
-	 background-color:#FFC500;
-	 font-feature-settings: "ss01";
-	 min-height:66vh;
-	 margin-bottom: 50vh; 
+	background-color:#FFC500;
+	
+	font-family: buscape, sans-serif;
+	font-size: 1.2em;
+	font-weight: 380;
+	line-height: 1.4em;
+	font-feature-settings: "ss01";
+	font-stretch: 75%;
+	padding: 2em;
 }
- svg{
-	margin:auto;
+nav{
+	display: grid;
+	height: 4em;
+}
+nav ul{
+	display: flex;
+	gap: 4em;
+	list-style: none;
+	margin: auto;
+	padding: 0;
+}
+nav ul li{
+	margin: auto;
+}
+svg{
+	margin: auto;	
+	width: 50px;
+	height: 50px;
 } 
+
+a{
+	margin: auto;
+	color: black;
+	text-decoration: none;
+}
+main{
+	display: grid;
+	margin-top: 4em;
+}
+.demo{
+	width: 375px;
+	max-height: 33vh;
+	background-color: black;
+	margin: auto;
+	aspect-ratio: 9 / 16;
+}
+
+main p{
+	column-width:44ch;
+}
