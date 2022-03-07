@@ -45,16 +45,17 @@ a{
 }
 main{
 	display: grid;
-	margin-top: 4em;
 }
 .demo{
 	width: 375px;
 	max-height: 33vh;
-	background-color: black;
-	margin: auto;
+	background-color: white;
+	margin: 4em auto;
 	aspect-ratio: 9 / 16;
 }
 
 main p{
 	column-width:44ch;
+	max-width: 900px;
+	margin: auto;
 }
